@@ -1,4 +1,4 @@
-#Proposal 1:Predicting Restaurant Health Inspection Scores from Yelp Reviews and Ratings
+# Proposal 1:Predicting Restaurant Health Inspection Scores from Yelp Reviews and Ratings
 
 ## Desciption:
 For small, local restaurants, maintaining a high health inspection rating is critical to reputation. However, inspections are random and owners are unable to know when inspectors will visit. Therefore, it's important for owners to have a tool to estimate how their restaurant will perform at the next inspection. This project utilizes Yelp reviews and ratings to predict how a restaurant will perform.
@@ -23,7 +23,9 @@ For small, local restaurants, maintaining a high health inspection rating is cri
 
 
 
-#Proposal 2: Bike Share Demand Estimation for Mid- Size Cities
+
+
+# Proposal 2: Bike Share Demand Estimation for Mid- Size Cities
 
 ## Desrciption:
 Every major American city has a bike share program. Small towns are unlikely to have bike share programs. This project helps mid- size cities determine if a program is viable by looking at bike share membership/ride data from existing programs and MSA data on the cities where those programs exist.
@@ -34,7 +36,6 @@ Every major American city has a bike share program. Small towns are unlikely to 
 - How do members and non- members use bike shares differently?
 - How do different cities use bike share programs?
 - Will a city provide its own bike share program or will a company like B- cycle run it?
-
 
 ## Final Presentation:
 - Presentation and Website
@@ -48,7 +49,7 @@ Every major American city has a bike share program. Small towns are unlikely to 
 - Getting a complete dataset for multiple cities seems incredibly challenging. The various city data will be spread out and likely not be in the same format. Price data will likely be manual data collection on each programs website.
 - Estimating demand is generally an extremely hard thing to measure. I'd need to think about substitute goods and figure out what those prices are in every city I'm interested in. There are likely other features I'm not even thinking about as well. Weather trends? etc.
 
-## Related Areas to Explore
+
 
 
 
@@ -63,7 +64,6 @@ Every major American city has a bike share program. Small towns are unlikely to 
 - When did Russian accounts begin interfering?
 - Did Russian accounts influence key election topics?
 - Did people who interacted with Russian accounts later echo the accounts in posts?
-
 
 ## Final Presentation:
 - Presentation and Website
@@ -84,7 +84,10 @@ Every major American city has a bike share program. Small towns are unlikely to 
 - How do Facebook reactions differ between different groups?
 
 
-# Other Ideas that I've thought less about
+
+
+
+# Other Ideas
 - Predict if an NCAA basketball player will transition well to the NBA
 - Predict if a bill will pass through congress based on the text of the bill
 - Predict Oscar Best Picture Winner based on IMDB ratings, Rotten Tomatoes ratings, Academy member Twitter mentions, box office revenue, cast member accolades, other prestigious award noms and wins
