@@ -55,7 +55,8 @@ Every major American city has a bike share program. Small towns are unlikely to 
 
 # Proposal 3: Measuring the Impact of Russian Accounts on the 2016 Election
 
-## Description: The further removed form the 2016 election we are, the more clear it is that Russia interfered in some way. However, it has been hard to measure the effect Russian interference had on the election. This project aims to quantify interference by looking at social media posts related to the election and the amount of engagement (and type of engagement) with comments made before and after known Russian accounts interacted with the posts.
+## Description:
+The further removed form the 2016 election we are, the more clear it is that Russia interfered in some way. However, it has been hard to measure the effect Russian interference had on the election. This project aims to quantify interference by looking at social media posts related to the election and the amount of engagement (and type of engagement) with comments made before and after known Russian accounts interacted with the posts.
 
 ##  Research Question(s) or Objective(s):
 - How effective were Russian accounts in creating disparity among American Twitter and Facebook users?
