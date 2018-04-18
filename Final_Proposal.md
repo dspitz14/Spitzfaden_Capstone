@@ -35,4 +35,4 @@ For small, local restaurants, maintaining a high health inspection rating is cri
 - Improved restaurant recommender based on power users or users that have similar ratings to you
 
 ## Author
-*Dave Spitzfaden*
+**Dave Spitzfaden**
