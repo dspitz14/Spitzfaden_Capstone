@@ -68,7 +68,7 @@ def transform_data_for_model(df):
 
 
     grouped_text= df.groupby(['yelp_business_id', 'inspection_date', 'last_inspection'])['yelp_review_text'].apply(lambda x: "{%s}" % '~~ '.join(x)).reset_index().sort_values(['yelp_business_id', 'inspection_date', 'last_inspection'])
-    
+
     return grouped_text['yelp_review_text'].values, grade_df['A'].values
 
 
@@ -151,7 +151,7 @@ def strip_address(df, column, new_column_name):
 
 
 def get_yelp_data():
-    '''Gets Yelp data out of SQL database, returns 3 DFs (business, reviews, and categories)
+    '''Gets Yelp data out of SQL database, returns 3 DFs (business, reviews, and categories)(Actally categories commented out right now)
     Jup 1'''
     cnx = mysql.connector.connect(user='root', password='root',
                                   host='localhost', port='8889',
