@@ -42,7 +42,7 @@ Below are three examples of how this process looks. Notably, restaurants with th
 | 2544 E Desert Inn Rd      | 2544 E Desert Inn Road | 2544 | Stick E Rice | Stick E Rice Thai Restaurant | 60|
 | 4170 Pioneer Ave, Ste A      | 4170 S Fort Apache Rd | 4170 | Plumbing Solutions- Nevada | Original Pancake House | 30|
 
-![fuzz_hist](/Users/dspitzfaden/Galvanize/capstone/images/fuzz_hist.png)
+![fuzz_hist](images/fuzz_hist.png)
 
 
 Now that the two databases have a "map," it's an easy process to put yelp business ids on county inspection periods and group the review text by health inspection period. This process can be found in the raw_data_to_pickle.py script's match_reviews_and_inspections function.
