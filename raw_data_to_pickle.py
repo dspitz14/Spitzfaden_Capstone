@@ -248,9 +248,4 @@ if __name__ == '__main__':
     with open('data_files/model.pkl', 'wb') as f:
         pickle.dump(model, f)
 
-    # with open('ibachi_test.txt', 'r') as myfile:
-    #     new_review=myfile.read().replace('\n', '')
-    #
-    # array = pd.Series(new_review)
-    # print('Ibachi Test')
-    # print('Predicted Health Score: {}'.format(model.predict(array)))
+    
