@@ -20,7 +20,7 @@ Therefore, this project aims to predict a business's health grade given the yelp
 
 ## Methodology
 
-![techstack](/Users/dspitzfaden/Galvanize/capstone/images/tech_stack.png)
+![techstack](images/tech_stack.png)
 
 ## Combining Data Sources
 Merging the Yelp and county data bases proved to be the most challenging part of this project so far. While the different sources have shared column names, they are not exactly aligned. Initially, merging was implemented on longitudinal data, but truncating or rounding the different float datatypes resulted in an extremely low match rate.
@@ -58,14 +58,14 @@ With the two databases now communicating with one another, visualization by heal
 
  Lastly, this chart shows that you might want to avoid the pho in Vegas.
 
-![cat_grades](/Users/dspitzfaden/Galvanize/capstone/images/grades_by_cat.png)
+![cat_grades](images/grades_by_cat.png)
 
 
 By looking at the Yelp review stars (charted below), it seems that the stars do not vary significantly by health grade. However, after running chi-squared tests on the different distributions, it's clear that there is some significant differences between A-grade stars and C-grade stars. The chi-squared p-values are below the histogram. Remember- a chi-squared test assumes the distributions are identical. The p-value communicates the probability of seeing that result (or more extreme) given that assumption is true. So, a small p-value expresses that the distributions, in fact, are not identical. Given the results, you can see that A and C-grade starts are not similar. But, A vs B and B vs C are harder to distinguish.
 
 Curiously, the differences between A and C appear to be the opposite of what you might expect. The mean star rating for A-grade restaurants is 3.59. C-grade is 3.72. B-grade is 3.64.
 
-![stars_hist](/Users/dspitzfaden/Galvanize/capstone/images/stars_hist.png)
+![stars_hist](images/stars_hist.png)
 
 | Health Grade Comparison        | Chi-squared p-value|
 | :-------------: |:-------------:|
