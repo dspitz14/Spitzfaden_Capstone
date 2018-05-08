@@ -88,4 +88,4 @@ The raw_data_to_pickle script goes from raw data to a pickled model (transformin
 - Build app that allows the user to see the predicted health grade by entering a business's Yelp URL
 
 ## Acknowledgements
-Thanks to my instructors, peers, and members of the [Galvanize](https://www.galvanize.com/austin/campus) community for the support and brainstorming for the duration of this project.
+Thanks to my instructors, peers, and members of the [Galvanize](https://www.galvanize.com/austin) community for the support and brainstorming for the duration of this project.
