@@ -14,4 +14,4 @@ def review_predict(filename):
 
 
 if __name__ == '__main__':
-    review_predict('ibachi_test.txt')
+    review_predict('ichiban_test.txt')
