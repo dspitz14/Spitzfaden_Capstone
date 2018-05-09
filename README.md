@@ -77,7 +77,7 @@ Curiously, the differences between A and C appear to be the opposite of what you
 ## NLP Modeling
 With the grouped review text by health inspection period, I vectorize the strings using bi-grams and use the features in a Random Forest Classifier model. The chart below shows the top bi-grams for each health grade. This process can be found in the raw_data_to_pickle.py script's HealthClassifier class.
 
-Before settling on this model, gradient boosting was tested, but proved to be too overfit. On first glance, the bigrams look extremely similar. Words like "really good" and "food good" appear in each category as a top word pairing. Chi-squared results for nlp feature selection are included in the .ppt file in this repo. In addition, highlights of correctly predicted C-grade reviews are included in the same file.
+Before settling on this model, gradient boosting was tested, but proved to be too overfit. On first glance, the bigrams look extremely similar. Words like "really good" and "food good" appear in each category as a top word pairing. However, it is interesting that "fast food" and "animal style" appear only in Grade-A. A reasonable explanation for this is that chain restaurants have a brand and reputation built around cleanliness. People choose these restaurants because they know the experience they'll have. Similarly, restaurant types that tend to be local appear more frequently in grade-C. Chi-squared results for nlp feature selection are included in the .ppt file in this repo. In addition, highlights of correctly predicted C-grade reviews are included in the same file.
 
 ![top_words.png](images/top_words.png)
 
