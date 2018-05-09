@@ -86,10 +86,12 @@ The current-working model has a precision of .81 and recall of .83 on a test tra
 The raw_data_to_pickle script goes from raw data to a pickled model (transforming the data) using all data available. The predict_one.py script unpickles the model and predicts a health rating from the contents of a text file. In an effort to see how the model performs on a different city's data, I found a restaurant with a low health rating (36/100) in Austin, and put its recent Yelp reviews in a text file. The model predicts that it would not receive an A-grade.
 
 ## Next Steps
+- Word charts for False Negatives, False Positives
 - Collect data from more cities for training
 - Feature selection on Yelp categories
 - Predict health grade instead of 'A' or 'not A'
 - Build app that allows the user to see the predicted health grade by entering a business's Yelp URL
+
 
 ## Acknowledgements
 Thanks to my instructors, peers, and members of the [Galvanize](https://www.galvanize.com/austin) community for the support and brainstorming for the duration of this project.
