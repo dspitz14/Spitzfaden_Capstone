@@ -63,7 +63,7 @@ With the two databases now communicating with one another, visualization by heal
 
 By looking at the Yelp review stars (charted below), it seems that the stars do not vary significantly by health grade. However, after running chi-squared tests on the different distributions, it's clear that there is some significant differences between A-grade stars and C-grade stars. The chi-squared p-values are below the histogram. Remember- a chi-squared test assumes the distributions are identical. The p-value communicates the probability of seeing that result (or more extreme) given that assumption is true. So, a small p-value expresses that the distributions, in fact, are not identical. Given the results, you can see that A and C-grade starts are not similar. But, A vs B and B vs C are harder to distinguish.
 
-Curiously, the differences between A and C appear to be the opposite of what you might expect. The mean star rating for A-grade restaurants is 3.59. C-grade is 3.72. B-grade is 3.64.
+Curiously, the differences between A and C appear to be the opposite of what you might expect. The mean star rating for A-grade restaurants is 3.59. C-grade is 3.72. B-grade is 3.64. This anomaly could be due to the small number of C reviews, but could also be a representative sample. In which case, it is surprising that C-grade restaurants, on average, receive higher yelp star ratings.
 
 ![stars_hist](images/stars_hist.png)
 
@@ -75,7 +75,11 @@ Curiously, the differences between A and C appear to be the opposite of what you
 
 
 ## NLP Modeling
-With the grouped review text by health inspection period, I vectorize the strings using bi-grams and use the features in a Random Forest Classifier model. This process can be found in the raw_data_to_pickle.py script's HealthClassifier class. Before settling on this model, gradient boosting was tested, but proved to be too overfit.
+With the grouped review text by health inspection period, I vectorize the strings using bi-grams and use the features in a Random Forest Classifier model. The chart below shows the top bi-grams for each health grade. This process can be found in the raw_data_to_pickle.py script's HealthClassifier class.
+
+Before settling on this model, gradient boosting was tested, but proved to be too overfit. On first glance, the bigrams look extremely similar. Words like "really good" and "food good" appear in each category as a top word pairing. Chi-squared results for nlp feature selection are included in the .ppt file in this repo. In addition, highlights of correctly predicted C-grade reviews are included in the same file.
+
+![top_words.png](images/top_words.png)
 
 The current-working model has a precision of .81 and recall of .83 on a test train split of .8/.2.
 
